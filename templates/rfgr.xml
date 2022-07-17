@@ -1,0 +1,16 @@
+<templateSet group="rfgr">
+  <template name="rfl" value="/******************************************************************************************************************&#10; * $TITLE$&#10; *****************************************************************************************************************/&#10;$2$" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="rfs" value="// **********************************************&#10;//  $TITLE$&#10;// **********************************************&#10;$2$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
